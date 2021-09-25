@@ -1,0 +1,3 @@
+string = "He said \"What\'s there\""
+print(string)
+#we use  back slash when these trivial sentences are used as strings...
