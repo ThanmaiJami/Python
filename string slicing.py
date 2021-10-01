@@ -1,4 +1,11 @@
+#slicing operator
 x = "python"
+#method1
+res1 = slice(4)
+print(x[res1])
+res2 = slice(2,6,2)
+print(x[res2])
+#method2
 print("1.",x[::1])
 print("2.",x[::2])
 print("3.",x[::3])
