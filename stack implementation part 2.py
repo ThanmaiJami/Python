@@ -11,3 +11,20 @@
 7) put_nowait(item) – Put an item into the queue without blocking.
 8) qsize() – Return the number of items in the queue. If no free slot is immediately available, raise QueueFull."""
 
+from queue import LifoQueue
+#initializing the stack
+stack = LifoQueue(maxsize = 3)
+#qsize() function to show number of elements in the stack
+print("The number of elements in the stack are :", stack.qsize())
+#put() function to push elements in the stack
+stack.put('9')
+stack.put('abcc')
+stack.put('f')
+print("Full :",stack.full())
+print("stack size :",stack.qsize())
+#get function to pop elements
+#LIFO order
+print(stack.get())
+print(stack.get())
+print(stack.get())
+print("Stack is empty :",stack.empty())
