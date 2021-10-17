@@ -1,5 +1,7 @@
 #File handling
 #Python program to read file word by word
+#TEXT FILE: Hello! Welocme to file handling in python...
+
 with open('GFG.txt','r') as file:
     # reading each line    
     for line in file:
@@ -12,7 +14,8 @@ with open('GFG.txt','r') as file:
             print(word) 
             
 #output:
-"""Hello! Welocme to file handling in python...
+"""
+Hello! Welocme to file handling in python...
 ['Hello!', 'Welocme', 'to', 'file', 'handling', 'in', 'python...']
 Hello!
 Welocme
@@ -21,7 +24,7 @@ file
 handling
 in
 python...
->>> """
+"""
 
 #Python program to read character by character from a file
 file = open('GFG.txt', 'r')
@@ -34,7 +37,8 @@ while 1:
 file.close()
 
 #output:
-"""H
+"""
+H
 e
 l
 l
@@ -78,4 +82,4 @@ n
 .
 .
 .
->>> """
+"""
