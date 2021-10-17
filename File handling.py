@@ -1,6 +1,7 @@
 #File handling
 #Python program to read file word by word
 #TEXT FILE: Hello! Welocme to file handling in python...
+#Both the text file and python file are on desktop
 
 with open('GFG.txt','r') as file:
     # reading each line    
