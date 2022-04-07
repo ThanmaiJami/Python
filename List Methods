@@ -1,0 +1,28 @@
+List Methods:
+--> append() ~ Appends the list with new element
+               Example: list = [apple, mango, berry]
+               list.append(Banana)
+               print(list)
+-->length() ~ finds the length of the list
+              list = [13,90,888,0,2]
+              print(list.length())
+-->sum() ~ adds the numeric value elements in the list(otherwise error will arise)
+           list = [13,90,888,0,2]
+           print(list.sum())
+-->pop() ~ 
+-->sort()
+-->count() ~ calculate the recurrence of an element
+             list = [hair, band, pin, necklace, pin, hair, pin]
+             print(list.count())
+-->min() ~ gives the minimum element 
+           list = [13,1,89,0,27]
+           print(list.min())
+-->max() ~ gives the maximum element
+           list = [13,1,89,0,27]
+           print(list.max())
+-->index() ~ 
+-->copy()
+-->insert()
+-->clear()
+-->remove()
+-->reverse()
