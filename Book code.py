@@ -5,10 +5,8 @@ A abrarian in a central library wants to arrange the new books and keep it in th
 section.
 
 Example
-Code of new book'ax12nmp
-
-4
-Code of section="b12nm
+Code of new book="ax12nmp"
+Code of section="b12nm"
 
 For above 2 codes, common code letters are 1, 2, n, m in sorted order Le.common numbers and then sorted letters, Print common code 12mn and percentage of code matching '57. Since more than 50 percent of code is matching Print The book can be added in section.
 
