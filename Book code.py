@@ -37,11 +37,7 @@ The book can be added in section
 c1 = input()
 c2 = input()
 #checking the length of two strings
-if len(c1) > len(c2):
-	n = c1
-else:
-	n = c2
-n_len = len(n)
+n = max(len(c1),len(c2))
 list = []
 #finding same elements
 for i in c1:
@@ -49,20 +45,24 @@ for i in c1:
 		if i==j:
 			list.append(i)
 #sorting the list
-sort = sorted(list)
+sort_list = sorted(list)
 #removing duplicates in the list
 res = []
-for i in sort: 
-    if i not in res: 
-        res.append(i)
+if c1==c2:
+	res = c1
+else:
+    	for i in sort_list:
+    	   	if i not in res:
+    	   		res.append(i)
 #list to string conversion 
 str = ""
 y = str.join(res)
 print(y)#print 
 res_len = len(res)
-a = ((res_len*100)//n_len) 
+a = ((res_len*100)//n) 
 print(a)#print
+
 if a>70:
 	print("The book can be added in section")#print 
 else:
-	print("The book cannot be added in section")#print
+	print("No match! The book cannot be added in section")#print
