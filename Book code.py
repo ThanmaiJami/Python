@@ -33,6 +33,27 @@ Sample Output 1
 80
 The book can be added in section
 
+Sample Input 2
+
+ggble21
+ggble21
+
+Sample Output 2
+
+ggble21
+100
+The book can be added in section
+
+Sample Input 3
+
+adnnlm
+ggble23
+
+Sample Output 3
+
+0
+No match! The book can not be added in section
+
 """
 c1 = input()
 c2 = input()
@@ -65,4 +86,4 @@ print(a)#print
 if a>70:
 	print("The book can be added in section")#print 
 else:
-	print("No match! The book cannot be added in section")#print
+	print("No match! The book can not be added in section")#print
